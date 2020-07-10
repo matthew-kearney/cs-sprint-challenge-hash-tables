@@ -1,4 +1,6 @@
 # Your code here
+# create cache
+cache = {}
 
 
 
