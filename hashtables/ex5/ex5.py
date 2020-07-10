@@ -10,7 +10,18 @@ def finder(files, queries):
     """
     # Your code here
 
-    return result
+    endpoints = dict()
+    answer = []
+    for query in queries:
+        if query not in endpoints:
+            endpoints[query] = 1
+    for path in files:
+        splitpath = path.split('/')
+        decon_path = splitpath[-1]
+        if decon_path in endpoints:
+            answer.append(path)
+    return answer
+
 
 
 if __name__ == "__main__":

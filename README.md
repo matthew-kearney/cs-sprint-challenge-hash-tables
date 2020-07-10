@@ -23,11 +23,23 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+- A hash function is a function which when given a key, generates an address in the table. The example of a hash function is a book call number
+
 2. Collision resolution
+- A way of handling collisions, that is, when two or more items should be kept in the same location, especially in a hash table.
+
 3. Performance of basic hash table operations
+-  It uses a hash function to compute an index into an array in which an element will be inserted or searched. By using a good hash function, hashing can work well.
+
 4. Load factor
+- As the load factor represents the actual energy usage versus the peak demand, consumers can use the same amount of electricity from one month to the next and still reduce the average cost per unit (kWh) by reducing the peak demand.
+
 5. Automatic resizing
+-
+
 6. Various use cases for hash tables
+-
+
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
